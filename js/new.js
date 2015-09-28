@@ -1,3 +1,10 @@
+var name="Kamalpreet Singh";
+var role="Web Developer";
+var skills=["HTML","CSS","Javascript","Jquery"];
+var formattedName = HTMLheaderName.replace("%data%",name);
+var formattedRole = HTMLheaderRole.replace("%data%",role);
+$("#header").prepend(formattedRole);
+$("#header").prepend(formattedName);
 
 var bio={
 	"name" : "Kamalpreet Singh",
@@ -5,35 +12,16 @@ var bio={
 	"contacts" : {
 	"mobile": "519-562-9608",
 	"email" : "kamal.cheema53@gmail.com",
-	"github" : "iamkamal-cheema",
+	"github" : "https://github.com/iamkamal-cheema",
 	"twitter" : "@iamkamalcheema",
 	"location" :"Windsor"
 	},
 	"welcomeMessage" : "Hire the best developer in town",
 	"skills" : ["HTML","CSS","Javascript","Jquery","Bootstrap framework"],
-	"picturUrl" : "images/kamalcheema.jpg"
+	"picturUrl" : "images/kamalcheematb.jpg"
 
 
 };
-
-
-$("#topContacts").prepend(HTMLmobile.replace("%data%", bio["contacts"].mobile));
-$("#topContacts").append(HTMLemail.replace("%data%", bio["contacts"].email));
-$("#topContacts").append(HTMLgithub.replace("%data%", bio["contacts"].github));
-$("#topContacts").append(HTMLtwitter.replace("%data%", bio["contacts"].twitter));
-$("#topContacts").append(HTMLlocation.replace("%data%", bio["contacts"].location));
-$("#header").append(HTMLwelcomeMsg.replace("%data%", bio.welcomeMessage));
-$("#header").append(HTMLbioPic.replace("%data%", bio.picturUrl));
-
-$("#header").prepend(HTMLheaderRole.replace("%data%", bio.role));
-$("#header").prepend(HTMLheaderName.replace("%data%", bio.name));
-
-$("#footerContacts").prepend(HTMLmobile.replace("%data%", bio["contacts"].mobile));
-$("#footerContacts").append(HTMLemail.replace("%data%", bio["contacts"].email));
-$("#footerContacts").append(HTMLgithub.replace("%data%", bio["contacts"].github));
-$("#footerContacts").append(HTMLtwitter.replace("%data%", bio["contacts"].twitter));
-$("#footerContacts").append(HTMLlocation.replace("%data%", bio["contacts"].location));
-
 
 var education = {
 	"schools" : [

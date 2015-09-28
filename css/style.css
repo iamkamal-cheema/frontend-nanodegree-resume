@@ -148,11 +148,13 @@ a {
 ul {
   list-style-type: none;
 }
-
+#topContacts{
+  margin-bottom: 15px;
+}
 .biopic {
   float: left;
   padding: 10px;
-  width: 200px;
+  width: 150px;
   display: none;
 }
 
@@ -187,7 +189,7 @@ span {
     margin-top: 10%;
   }
   .biopic {
-    width: 150px;
+    width: 100px;
   }
   .welcome-message {
     display: none;
