@@ -24,6 +24,26 @@ h6 {
   padding: 0 5%;
 }
 
+.education-entry h3{
+  padding-left: 0px;
+}
+
+.horizontal{
+  border: none;
+    height: 3px;
+    background-color: #333;
+
+}
+
+.panel{
+  border: 0;
+  margin-bottom: 0;
+  background-color: #f3f3f3;
+
+}
+.panel-group{
+  margin-bottom: 5px;
+}
 h1 {
   font-size: 40px;
   color: #f5a623;
@@ -44,6 +64,7 @@ h3 {
   font-size: 20px;
   color: #000;
   line-height: 22px;
+
 }
 
 h4 {
@@ -105,9 +126,11 @@ a {
 }
 
 .orange {
-  background-color: #f5ae23;
+  background-color: #1E2F2E;
 }
-
+.panel-default>.panel-heading{
+  background-color: #65D0A8;
+}
 .orange-text {
   color: #f5ae23;
 }
@@ -124,12 +147,14 @@ a {
 }
 
 .dark-gray {
-  background-color: #4a4a4a;
+  background-color: #455D5B;
+
 }
 
 /* TODO: Replace with image later */
 #header {
-  background-color: #484848;
+  background-color: #455D5B;
+
 }
 
 .flex-box {
@@ -215,3 +240,10 @@ span {
   }
 }
 
+#main{
+  background-color: #545151;
+}
+
+.navbar{
+  margin-bottom: 0;
+}
